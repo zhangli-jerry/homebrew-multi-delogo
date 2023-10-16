@@ -14,7 +14,7 @@ class MultiDelogo < Formula
   depends_on "ffmpeg"
   depends_on "gettext"
   depends_on "glibmm"
-  depends_on "zhangli-jerry/multi-delogo/goocanvasmm"
+  depends_on "goocanvasmm"
   depends_on "gtkmm3"
   depends_on "opencv"
 
