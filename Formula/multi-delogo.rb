@@ -1,7 +1,7 @@
 class MultiDelogo < Formula
   desc "Detect and remove logos from videos"
   homepage "https://github.com/wernerturing/multi-delogo"
-  url "https://github.com/wernerturing/multi-delogo.git",
+  url "https://github.com/zhangli-jerry/multi-delogo.git",
       :master => "opencv4"
   version "2.3.0"
   sha256 "80ff11873ec0e73d9e38b0eb2ffb1586621f0b804093b990e49fdb546476ed6e"
@@ -14,7 +14,7 @@ class MultiDelogo < Formula
   depends_on "ffmpeg"
   depends_on "gettext"
   depends_on "glibmm"
-  depends_on "goocanvasmm"
+  depends_on "zhangli-jerry/multi-delogo/goocanvasmm"
   depends_on "gtkmm3"
   depends_on "opencv"
 
