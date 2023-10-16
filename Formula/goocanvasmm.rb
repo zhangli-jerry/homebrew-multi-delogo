@@ -55,15 +55,15 @@ class Goocanvasmm < Formula
       -I#{glib.opt_include}/glib-2.0
       -I#{glib.opt_lib}/glib-2.0/include
       -I#{glibmm.opt_include}/giomm-2.4
-      -I#{glibmm.opt_include}/glibmm-2.4
+      -I#{glibmm.opt_include}/glibmm-2.46.1
       -I#{glibmm.opt_lib}/giomm-2.4/include
-      -I#{glibmm.opt_lib}/glibmm-2.4/include
+      -I#{glibmm.opt_lib}/glibmm-2.46.1/include
       -I#{goocanvas.opt_include}/goocanvas-2.0
-      -I#{include}/goocanvasmm-2.0
+      -I#{include}/goocanvasmm-2.0.1
       -I#{gtkmm3.opt_include}/gdkmm-3.0
-      -I#{gtkmm3.opt_include}/gtkmm-3.0
+      -I#{gtkmm3.opt_include}/gtkmm-3.18.0
       -I#{gtkmm3.opt_lib}/gdkmm-3.0/include
-      -I#{gtkmm3.opt_lib}/gtkmm-3.0/include
+      -I#{gtkmm3.opt_lib}/gtkmm-3.18.0/include
       -I#{gtkx3.opt_include}/gtk-3.0
       -I#{gtkx3.opt_include}/gtk-3.0/unix-print
       -I#{libpng.opt_include}/libpng16
